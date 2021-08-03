@@ -44,3 +44,18 @@ display: inline;
 .image-vw {
   width : 100vw ; 
 }
+
+/*画像を重ねる*/
+.top-box {
+  position: relative;
+}
+.topPC {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  
+  position: absolute;
+  top: 37%;
+  left: 3%;
+}

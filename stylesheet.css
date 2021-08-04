@@ -12,9 +12,7 @@
     color:  #ffffff;
   }
   header .headline{
-      line-height: 100px;
       float: left;
-      font-size: 30px;
       margin-left: 100px;
   }
   .nav-list {

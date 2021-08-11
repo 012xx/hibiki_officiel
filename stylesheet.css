@@ -11,6 +11,7 @@ header {
   background-color: #c12127;
   color:  #ffffff;
   z-index: 1;
+  position:fixed;
 }
 header .headline{
   float: left;
@@ -50,7 +51,6 @@ footer{
 }
 ul.footer-menu li {
   display: inline;
-  margin-top: 16px;
 }
 @media screen and (max-width:480px) {
 

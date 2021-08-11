@@ -10,6 +10,7 @@
     padding: 15px 0;
     background-color: #c12127;
     color:  #ffffff;
+    position: fixed;
   }
   header .headline{
       float: left;

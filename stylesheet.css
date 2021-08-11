@@ -10,6 +10,8 @@ header {
   padding: 15px 0;
   background-color: #c12127;
   color:  #ffffff;
+  z-index: 1;
+  position:fixed;
 }
 header .headline{
   float: left;
@@ -44,6 +46,8 @@ footer{
   background-color: #c12127;
   color:  #ffffff;
   text-align: center;
+  z-index: 2;
+  position: absolute;
 }
 ul.footer-menu li {
 display: inline;
@@ -57,7 +61,8 @@ display: inline;
 /*main用記述*/
 /* 画面幅の100%の幅で画像を表示 */
 .image-vw {
-  width : 100vw ; 
+  width : 100vw ;
+  z-index: 0; 
 }
 
 /*画像を重ねる*/
@@ -69,7 +74,6 @@ display: inline;
   justify-content: center;
   align-items: center;
   cursor: pointer;
-  
   position: absolute;
   top: 37%;
   left: 3%;

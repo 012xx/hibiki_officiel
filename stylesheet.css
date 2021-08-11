@@ -10,7 +10,6 @@
     padding: 15px 0;
     background-color: #c12127;
     color:  #ffffff;
-    position: fixed;
   }
   header .headline{
       float: left;
@@ -62,4 +61,9 @@ display: inline;
   position: absolute;
   top: 37%;
   left: 3%;
+}
+h2.title {
+  color:#ffffff;
+  font-size: 36px;
+  font-family: sans-serif;
 }

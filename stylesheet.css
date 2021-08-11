@@ -71,6 +71,7 @@ display: inline;
 }
 .info {
   margin: 1em auto;
+  margin-bottom: 100px;
   padding: 0 1.5em;
   border: 1px solid #ffffff;
   text-align: left;

@@ -11,7 +11,6 @@ header {
   background-color: #c12127;
   color:  #ffffff;
   z-index: 1;
-  position:fixed;
 }
 header .headline{
   float: left;
@@ -86,7 +85,7 @@ ul.footer-menu li {
   box-sizing: border-box;
 }
 .info {
-  margin: 1em auto 70px auto;
+  margin: 1em auto 60px auto;
   padding: 0 1.5em;
   border: 1px solid #ffffff;
   text-align: left;

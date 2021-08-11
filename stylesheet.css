@@ -36,6 +36,11 @@
 ul.footer-menu li {
 display: inline;
 }
+@media screen and (max-width:480px) {
+ 
+	/*　画面サイズが480px以下の場合ここの記述が適用される　*/
+ 
+}
 
 /*main用記述*/
 /* 画面幅の100%の幅で画像を表示 */

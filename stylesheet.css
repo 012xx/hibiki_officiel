@@ -71,7 +71,7 @@ display: inline;
 }
 .info {
   margin: 1em auto;
-  margin-bottom: 100px;
+  margin-bottom: 100px; /*見えてる？*/
   padding: 0 1.5em;
   border: 1px solid #ffffff;
   text-align: left;

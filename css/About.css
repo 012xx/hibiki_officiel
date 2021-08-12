@@ -63,10 +63,15 @@ ul.footer-menu li {
   margin-right: auto;
   width: 61em;
 }
-p.mozi{
+p.sentence{
   color :#ffffff;
   text-align: justify;
   margin-top: 60px ;
+}
+p.likes{
+  color :#ffffff;
+  text-align: justify;
+  margin-top: 10px ;
 }
 .container{
   max-width: 894px;
@@ -74,4 +79,7 @@ p.mozi{
 }
 img.bass{
   border: 2px solid #8f9299;
+}
+span{
+  color : red;
 }

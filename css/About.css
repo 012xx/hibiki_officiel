@@ -92,6 +92,6 @@ img.bass{
 span{
   color : red;
 }
-.under {
+a:link.under {
   background: linear-gradient(transparent 55%, #c12127bf 50%);
 }

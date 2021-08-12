@@ -111,10 +111,6 @@ ul.footer-menu li {
 }
 
 /*About*/
-.aboutphoto {
-  padding-bottom: 60px;
-  text-align : center
-}
 .blocktext {
   margin-left: auto;
   margin-right: auto;
@@ -125,4 +121,8 @@ p.mozi{
   text-align: justify;
   margin: 60px 60px 0px;
   padding: 0px 20px;
+}
+.container{
+  max-width: 670px;
+  margin: 0 auto;
 }

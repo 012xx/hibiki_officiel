@@ -18,7 +18,6 @@ header{
     -webkit-transform: translate(0px,0px);
     transform: translate(0px,0px);
 }
-
 .nav{
     float: right;
     text-align: center;
@@ -30,18 +29,17 @@ header{
 .nav li a{
     float:left;
     line-height: 100px;
-    color: #101010;
+    color: #ffffff;
     position: relative;
     font-size: 16px;
     height: 100px;
     font-weight: 400;
     overflow: hidden;
     transition:500ms;
-    padding:0 25px;
+    padding:0 50px;
     font-family: 'Open Sans', sans-serif;
     z-index:1;
 }
-
 .nav li:after{
     content: "";
     position: absolute;
@@ -63,8 +61,7 @@ header{
 }
 
 .nav li:hover a,.nav li.active a{
-    color: #fff;
-
+    color: #d9dde4;
 }
 .logo{
     line-height: 100px;
@@ -82,9 +79,6 @@ header{
     top: 10px;
     height: 80px;
 }
-
-
-
 .container{
     width: 100%;
     max-width: 1170px;
@@ -108,3 +102,18 @@ body{
     outline: none;
 }
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:700,800,400&subset=latin,latin-ext);
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: #c12127;
+    color:  #ffffff;
+    text-align: center;
+    z-index: 2;
+    position: absolute;
+}
+ul.footer-menu li {
+    display: inline;
+}
+@media screen and (max-width:480px) {
+/*　画面サイズが480px以下の場合ここの記述が適用される　*/
+}

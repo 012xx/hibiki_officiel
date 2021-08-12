@@ -109,15 +109,3 @@ ul.footer-menu li {
 .info dt {clear: left;float: left;}
 .info dd {margin-left: 0.5em;}
 }
-
-/*About*/
-.aboutphoto {
-  padding-bottom: 150px;
-  text-align : center
-}
-p.mozi{
-  color :#ffffff;
-  text-align: justify;
-  margin: 60px 60px 0px;
-  padding: 0px 20px;
-}

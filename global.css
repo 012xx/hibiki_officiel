@@ -92,14 +92,14 @@ footer{
     height: 100px;
     background-color: #c12127;
     color:  #ffffff;
-    text-align: center;
-    z-index: 10;
     position: absolute;
+    text-align: right;
+    padding-right: 120px;
     bottom: 0;
 }
 ul.footer-menu li {
     display: inline;
-}
+  }
 .wrapper{
     min-height: 100vh;
     position: relative;

@@ -29,15 +29,19 @@ header .headline{
 }
 a:link{
   color:#ffffff;
+  text-decoration:none; 
 }
 a:visited{
   color: #ffffff;
+  text-decoration:none; 
 }
 a.white:link {
   color : #ffffff;
+  text-decoration:none; 
 }
 a.white:visited {
   color : #ffffff;
+  text-decoration:none; 
 }
 footer{
   width: 100%;
@@ -68,6 +72,11 @@ p.sentence{
   text-align: justify;
   margin-top: 60px ;
 }
+p.bio{
+  color :#ffffff;
+  text-align: justify;
+  margin-top: 10px ;
+}
 p.likes{
   color :#ffffff;
   text-align: justify;
@@ -84,5 +93,5 @@ span{
   color : red;
 }
 .under {
-  background: linear-gradient(transparent 50%, #a8eaff 50%);
+  background: linear-gradient(transparent 55%, #c12127bf 50%);
 }

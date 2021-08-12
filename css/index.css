@@ -29,15 +29,19 @@ header .headline{
 }
 a:link{
   color:#ffffff;
+  text-decoration:none;
 }
 a:visited{
   color: #ffffff;
+  text-decoration:none;
 }
 a.white:link {
   color : #ffffff;
+  text-decoration:none;
 }
 a.white:visited {
   color : #ffffff;
+  text-decoration:none;
 }
 footer{
   width: 100%;

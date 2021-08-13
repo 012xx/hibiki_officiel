@@ -1,26 +1,31 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <link rel="stylesheet" href="css/About.css">
-  <title>嵩原ひびき_official</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="css/global.css">
+<link rel="stylesheet" href="css/About.css">
+<title>嵩原ひびき_official</title>
+<link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
 </head>
 <body>
 
 <!-- header -->
-<header>
-  <img src="picture/logo.png" class="headline">
-  <ul class="nav-list">
-    <li class="nav-list-item"><a href="index.html">Home</a></li>
-    <li class="nav-list-item"><a href="Works.html">Works</a></li>
-    <li class="nav-list-item">About</li>
-    <li class="nav-list-item"><a href="Contact.html">Contact</a></li>
+<header class="visible">
+  <div class="container">
+      <img src=picture/logo.png style="text-align: right;">
+  <ul class="nav">
+      <li><a href="index.html">HOME</a></li>
+      <li><a href="Works.html">WORKS</a></li>       
+      <li class="active"><a href="#">ABOUT</a></li>    
+      <li><a href="Contact.html">CONTACT</a></li>
   </ul>
+  </div>
 </header>
 
-<div class="container">
 <!-- サイトの中身部分 -->
+
+<div class="container-text">
 <img src="picture/Aboutpicture/About.png" style="padding-top: 60px; padding-bottom: 60px;">
 <img src="picture/Aboutpicture/bass.jpg" style="text-align: center;" class="bass">
 
@@ -33,8 +38,8 @@
   <p class="bio">
   2001.12 - 千葉県生まれ<br>
   2020.03 - 長崎県の高校を卒業<br>
-  2020.04 - 福岡の大学生として日々奔走中<br>
-  2020.09 - 福岡の某営業会社で飛び込み営業を行う<br>
+  2020.04 - 福岡県の大学生として日々奔走中<br>
+  2020.09 - 某営業会社で飛び込み営業を行う<br>
   2021.06 - 運営見習い生として株式会社Hack'zに所属中<br>
 </p>
 </p>
@@ -69,14 +74,12 @@
 </div>
 <!-- footer -->
 <footer>
-    <br>
-    <ul class="footer-menu">
-    <li>Home ｜</li>
-    <li>Works ｜</li>
-    <li>About ｜</li>
-    <li>Contact</li>
-    </ul>
-    <p>© 2021 team-BPR.</p>
+  <ul class="footer-menu"  style="padding-top: 17.5px;">
+  <li><a href="https://twitter.com/012xx_"><i class="fab fa-twitter-square fa-fw faa-tada fa-4x"></a></i></li>
+  <!-- 質問 表示とアニメーション -->
+  <li><a href="https://t.co/MSolMNmkrp?amp=1"><i class="fab fa-instagram-square fa-fw faa-tada fa-4x"></a></i></li>
+  <p style="text-align: center; margin-top: -40px;">© 2021 team-BPR.</p>
+  </ul>
 </footer>
 </body>
 </html>

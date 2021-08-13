@@ -132,20 +132,21 @@ ul.footer-menu li {
 }
  */
 
- /* スクロールの幅の設定 */
-html::-webkit-scrollbar {
+
+/* スクロールの幅の設定 */
+::-webkit-scrollbar {
     width: 12px;
     height: 15px;
-    }
+}
     
-    /* スクロールの背景の設定 */
-    html::-webkit-scrollbar-track {
-    border-radius: 10px;
-    box-shadow: 0 0 0px #8f9299 inset;
-    }
+/* スクロールの背景の設定 */
+::-webkit-scrollbar-track {
+    border-radius: 5px;
+    box-shadow: #8f9299 inset;
+}
     
-    /* スクロールのつまみ部分の設定 */
-    html::-webkit-scrollbar-thumb {
+/* スクロールのつまみ部分の設定 */
+    ::-webkit-scrollbar-thumb {
     border-radius: 5px;
     background: #8f9299;
-    }
+}

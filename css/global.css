@@ -125,14 +125,6 @@ ul.footer-menu li {
 }
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:700,800,400&subset=latin,latin-ext);
 
-/* .instgram:before {
-    font-family: "Font Awesome 5 Brands";
-    content: '\e055';
-    font-weight: 400;
-}
- */
-
-
 /* スクロールの幅の設定 */
 ::-webkit-scrollbar {
     width: 12px;

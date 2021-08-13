@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="css/global.css">
+<link rel="stylesheet" href="css/Contact.css">
+<title>嵩原ひびき_official</title>
+<link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+</head>
+<body>
+<!-- header -->
+<header class="visible">
+  <div class="container">
+      <img src="picture/logo.png" style="text-align: right;">
+  <ul class="nav">
+      <li><a href="index.html">HOME</a></li>       
+      <li><a href="Works.html">WORKS</a></li>         
+      <li><a href="About.html">ABOUT</a></li>    
+      <li class="active"><a href="#">CONTACT</a></li>
+  </ul>
+  </div>
+</header>
+  
+  <!-- サイトの中身部分 -->
+<div class="all">
+ <div class="title" style="text-align: left;"><img src="picture/contactpicture/contact.png"></div>
+<div class="form">
+<form action="" method="post" name="from"enctype="text/plain" onsubmit="return formCheck()">
+
+<div class="box">
+<p>名前*</p>
+  <input class="respon" id="name" type="text" name="name" required="required" placeholder="あなたのことを教えてください">
+</div>
+
+<div class="box">
+<div class="c-block-input">
+  <div class="c-block-input__items">
+    <div class="c-block-input__title">どこから嵩原を知りましたか？*
+    </div>
+    <div class="c-block-input__radio">
+      <input type="radio" name="radio" value="Twitter" id="radio01" checked>
+      <label for="radio01">Twitter</label>
+     　 <input type="radio" name="radio" id="radio02" value="YouTube">
+      <label for="radio02">YouTube</label>
+     　 <input type="radio" name="radio" id="radio03" value="現実">
+      <label for="radio03">現実</label>
+     　 <input type="radio" name="radio" id="radio04" value="その他">
+      <label for="radio04">その他</label>
+    </div>
+  </div>
+</div>
+</div>
+
+<div class="box">
+<p>ご意見・リクエストがあればどーぞ</p>
+<tr><td><textarea class="respon" name="iken" rows="10" placeholder="悪口は書かないでね"></textarea></td></tr>
+</div>
+</div>
+<div class="box1">
+<tr><td><input type="reset" value="やり直し" class="button">    
+        <input type="button" value="送信" class="button1"></td></tr>
+</div>
+</form>
+</div>
+</div>
+<!-- footer -->
+<footer>
+  <ul class="footer-menu"  style="padding-top: 17.5px;">
+  <li><a href="https://twitter.com/012xx_"><i class="fab fa-twitter-square fa-fw faa-tada fa-4x"></a></i></li>
+  <!-- 質問 表示とアニメーション -->
+  <li><a href="https://t.co/MSolMNmkrp?amp=1"><i class="fab fa-instagram-square fa-fw faa-tada fa-4x"></a></i></li>
+  <p style="text-align: center; margin-top: -40px;">© 2021 team-BPR.</p>
+  </ul>
+</footer>
+</div>
+</body>
+</html>

@@ -131,3 +131,21 @@ ul.footer-menu li {
     font-weight: 400;
 }
  */
+
+ /* スクロールの幅の設定 */
+html::-webkit-scrollbar {
+    width: 12px;
+    height: 15px;
+    }
+    
+    /* スクロールの背景の設定 */
+    html::-webkit-scrollbar-track {
+    border-radius: 10px;
+    box-shadow: 0 0 0px #8f9299 inset;
+    }
+    
+    /* スクロールのつまみ部分の設定 */
+    html::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background: #8f9299;
+    }

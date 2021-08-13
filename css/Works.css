@@ -19,15 +19,7 @@ a.white:visited {
 #line{
  text-decoration: none;
 }
-/*works*/
-body {
- margin:0; padding:0;
- font-family: ;
- background-color: #2a333c;
- color: #ffffff;
- text-align: center;
- flex: 1;
-}
+
 .all{
  margin:0 15% 3%;
 }

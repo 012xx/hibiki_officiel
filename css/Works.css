@@ -1,0 +1,54 @@
+a:link{
+  color:#ffffff;
+}
+a:visited{
+  color: #ffffff;
+}
+a.white:link {
+  color : #ffffff;
+}
+a.white:visited {
+  color : #ffffff;
+}
+
+@media screen and (max-width:480px) {
+
+/*　画面サイズが480px以下の場合ここの記述が適用される　*/
+
+}
+#line{
+ text-decoration: none;
+}
+/*works*/
+body {
+ margin:0; padding:0;
+ font-family: ;
+ background-color: #2a333c;
+ color: #ffffff;
+ text-align: center;
+ flex: 1;
+}
+.all{
+ margin:0 15% 3%;
+}
+
+.title{
+  padding-top: 50px;
+}
+
+
+.gather img {
+    border-radius: 50%;
+    width:  180px;
+    height: 180px;
+}
+
+.gather {
+  margin-top: 20px;
+  margin-bottom: 80px;
+  margin-left: -45px;
+}
+
+#gap{
+ margin: 0 20px 0 20px;
+}

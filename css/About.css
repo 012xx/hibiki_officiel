@@ -57,6 +57,10 @@ p.likebold{
 img.bass{
   border: 2px solid #8f9299;
   width: 700px;  
+  text-align: center;
+}
+img.about{
+  width: 300px;
 }
 span{
   color : red;

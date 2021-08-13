@@ -1,3 +1,6 @@
+body{
+    background-color: #2a333c;
+}
 header{
     width: 100%;
     float: left;
@@ -92,7 +95,6 @@ footer{
     height: 100px;
     background-color: #c12127;
     color:  #ffffff;
-    position: absolute;
     text-align: right;
     padding-right: 120px;
     bottom: 0;

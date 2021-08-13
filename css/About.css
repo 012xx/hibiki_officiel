@@ -22,10 +22,17 @@ a.white:visited {
   margin-right: auto;
   width: 61em;
 }
+p.sentence-pro{
+  color :#ffffff;
+  text-align: justify;
+  margin-top: 60px ;
+  font-size: 20px;
+}
 p.sentence{
   color :#ffffff;
   text-align: justify;
   margin-top: 60px ;
+  font-size: 20px;
 }
 p.bio{
   color :#ffffff;
@@ -36,6 +43,12 @@ p.likes{
   color :#ffffff;
   text-align: justify;
   margin-top: 10px ;
+}
+p.likebold{
+  color :#ffffff;
+  text-align: justify;
+  margin-top: 10px ;
+  font-size: 20px;
 }
 .container-text{
   max-width: 894px;

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="622" height="248" viewBox="0 0 622 248">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 110px;
+      }
+
+      .cls-1, .cls-2 {
+        fill: #fff;
+        font-family: "Work Sans";
+        font-weight: 800;
+      }
+
+      .cls-2 {
+        font-size: 36px;
+      }
+    </style>
+  </defs>
+  <text id="TAKEHARA" class="cls-1" x="1.537" y="81.039">TAKEHARA</text>
+  <text id="HIBIKI" class="cls-1" x="1.537" y="188.579">HIBIKI</text>
+  <text id="SINCE_2021" data-name="SINCE 2021" class="cls-2" x="7.248" y="245.202">SINCE 2021</text>
+</svg>

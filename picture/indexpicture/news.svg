@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="284" height="63" viewBox="0 0 284 63">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 85px;
+        fill: #fff;
+        font-family: "Work Sans";
+        font-weight: 800;
+      }
+    </style>
+  </defs>
+  <text id="NEWS" class="cls-1" x="0.301" y="60.125">NEWS</text>
+</svg>

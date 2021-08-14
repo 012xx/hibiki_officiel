@@ -48,6 +48,7 @@ a.white:visited {
   width: 90%;
   height: 10em;
   background-color: #eeeeee;
+  border-radius: 20px; /* 角を丸くする */
 }
 .info dl {
   padding: 0.5em 0;
@@ -61,3 +62,4 @@ a.white:visited {
 .info dt {clear: left;float: left;}
 .info dd {margin-left: 0.5em;}
 }
+

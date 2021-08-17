@@ -17,11 +17,11 @@ a.white:visited {
 
 }
 #line{
- text-decoration: none;
+  text-decoration: none;
 }
 
 .all{
- margin:0 15% 3%;
+  margin:0 15% 3%;
 }
 
 .title{
@@ -42,5 +42,5 @@ a.white:visited {
 }
 
 #gap{
- margin: 0 20px 0 20px;
+  margin: 0 20px 0 20px;
 }
